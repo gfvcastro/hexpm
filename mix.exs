@@ -64,6 +64,7 @@ defmodule Hexpm.Mixfile do
       {:plug_attack, "~> 0.3"},
       {:hackney, "~> 1.7"},
       {:sbroker, "~> 1.0"},
+      {:hex_tar, github: "wojtekmach/hex_tar"},
       {:ex_machina, "~> 2.0", only: [:dev, :test]},
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:rollbax, "~> 0.5", only: :prod}
